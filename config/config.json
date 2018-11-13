@@ -1,0 +1,28 @@
+{
+  "development": {
+    "username": "postgres",
+    "password": "biggay1234",
+    "database": "workoutlog",
+    "host": "127.0.0.1",
+    "port": "3000",
+    "dialect": "postgres",
+    "seederStorage": "sequelize",
+    "seederStorageTableName": "sequelize_data" 
+  },
+  "test": {
+    "username": "postgres",
+    "password": "biggay1234",
+    "database": "workoutlog",
+    "host": "127.0.0.1",
+    "port": "3000",
+    "dialect": "postgres"
+  },
+  "production": {
+    "username": "postgres",
+    "password": "biggay1234",
+    "database": "workoutlog",
+    "host": "127.0.0.1",
+    "port": "3000",
+    "dialect": "postgres"
+  }
+}
